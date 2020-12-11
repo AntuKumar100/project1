@@ -1,0 +1,397 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+header{
+    background-color: #121B2A;
+}
+.wrapper{
+    width: 80%;
+    
+    margin: 0 auto;
+    overflow: hidden;
+}
+.logo{
+    width: 15%;
+
+    float: left;
+}
+.logo img {
+    width: 100%;
+    padding-top: 8px;
+    margin-bottom: 3px;
+}
+.menu{
+    width: 70%;
+
+    float: right;
+    margin-top: 55px;
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+    
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 16PX;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: sans-serif;
+    padding: 0 20px;
+    display: inline-block;
+}
+.menu ul li:last-child a{
+    padding-right: 0px;
+}
+.menu ul li a:hover{
+    color: #037AC0;
+}
+/* header finish  */
+/* banner start */
+.banner{
+    background-image: url(banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 450px;
+
+}
+.b_content {
+    margin-top: 400px;
+    margin-bottom: 173px;
+    width: 50%;
+}
+.b_content h1 {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 38px;
+    font-weight: 400;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+.b_content h2{
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+    color: #037AC0;
+    text-transform: capitalize;
+    
+}
+.b_content p {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    line-height: 30px;
+    margin-bottom: 25px;
+    margin-top: 5px;
+}
+.b_content button {
+    width: 210px;
+    height: 55px;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #5B585B;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    transition: .5s;
+}
+.b_content button i {
+    color: #037AC0;
+    font-size: 24px;
+    margin-left: 12px;
+}
+.b_content button:hover{
+    color: white;
+    background-color: #037AC0;
+
+}
+.b_content button i:hover{
+    color: white;
+}
+/* banner end */
+
+.service{
+    background-color: #121B2C;
+    padding: 50px 10px;
+    
+}
+.single {
+    width: 29.333%;
+    float: left;
+    padding: 50px 2% 5px 2%;
+}
+/* .single:last-child{
+    border-right: none;
+}  */
+.top{
+    overflow: hidden;
+}
+
+.t_img{
+    width: 28%%;
+    float: left;
+
+}
+.t_img img{
+    width: 100%;
+}
+.t_text{
+    margin-top: 15px;
+    width:60%;
+    float: left;
+
+}
+.t_text h2{
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+}
+.t_text h3{
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    color: #037AC0;
+}
+
+.buttom{}
+.buttom p{
+    font-family: sans-serif;
+    font-size:16px;
+    font-weight: 400;
+    color: white;
+    line-height: 25px;
+}
+
+/* content start */
+
+.content{
+    background-color: #040811;
+}
+.one {
+    width: 25.1%;
+    float: left;
+    padding: 40px 0% 52px 5.1%;
+}
+.one1 {
+    width: 25.1%;
+    float: left;
+    padding: 40px 5% 40px 3.4%;
+}
+.one2 {
+    width: 25.1%;
+    float: left;
+    padding: 40px 7.7% 12px 3.5%;
+}
+
+.one h2 {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    color: white;
+    line-height: 25px;
+}
+.one span {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #037AC0;
+    line-height: 30px;
+}
+.one p {
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: lighter;
+    color: white;
+    line-height: 9px;
+}
+h4 {
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: lighter;
+    color: white;
+    line-height: 19px;
+    margin-bottom: 25px;
+}
+h5{
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: lighter;
+    color: white;
+    line-height: 11px;
+    margin-top: 16px;
+    
+}
+
+.customar {
+    background-color: #0C1019;
+    padding: 22px 22px 12px;
+    margin-bottom: 28px;
+}
+.customar h2 {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    color: white;
+    line-height: 25px;
+    margin: 0px;
+}
+.customar span{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #037AC0;
+    line-height: 30px;
+}
+.customar p {
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: lighter;
+    color: white;
+    line-height: 18px;
+}
+.foot{
+    padding: 0px 22px;
+}
+.foot h5 {
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: lighter;
+    color: white;
+    line-height: 9px;
+    margin: 0px;
+}
+.foot p{
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+    line-height: 9px;
+    margin: 9px 0px;
+}
+.store{
+    overflow: hidden;
+}
+.phone{
+    float: left;
+}
+.phone img{
+    width: 100%;
+}
+.text_t {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.text_t h4 {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    color: white;
+    line-height: 25px;
+    margin: 0px;
+    display: inline-block;
+}
+.text_t h5 {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #037AC0;
+    display: inline-block;
+    margin: 11px 0px;
+}
+.app{
+    float: left;
+}
+.app img {
+    width: 100%;
+    margin-left: 12px;
+}
+
+/* footer start */
+
+.footer{
+    background-color: #121B2C;
+}
+.footer1 {
+    width: 55%;
+    float: left;
+    margin-top: 20px;
+}
+.part1 {
+    float: left;
+    width: 100%;
+    margin-left: 22px;
+}
+.part1 ul{
+    list-style: none;
+}
+.part1 ul li{}
+.part1 ul li a {
+    font-family: sans-serif;
+    text-decoration: none;
+    color: white;
+    float: left;
+    padding: 0px 16px;
+    font-weight: 100;
+    font-size: 15px;
+}
+.part2 {
+    width: 100%;
+    display: inline-block;
+    margin-left: 75px;
+}
+
+.part2 p {
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: lighter;
+    color: white;
+    line-height: 30px;
+    width: 100%;
+}
+
+.footer2 {
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: lighter;
+    color: white;
+    line-height: 18px;
+    width: 35%;
+    float: left;
+    margin: 30px 0px;
+    margin-left: 115px;
+}
+.pic1 {
+    float: left;
+    width: 35%;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.pic2 {
+    float: left;
+    width: 35%;
+}
+.pic1 img{
+    width: 100%;
+}
+.pic2 img{
+    width: 100%;
+}
+
+
+/* footer end */
