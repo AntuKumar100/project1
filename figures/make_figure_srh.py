@@ -20,7 +20,6 @@ rows = [
     ("Healthy relationships/consent", 37.55),
     ("When/where to seek health services", 29.12),
     ("Pregnancy prevention", 23.75),
-    ("RTI/STI prevention", 10.34),
     ("Nutrition/anemia", 44.83),
     ("Violence/abuse/help-seeking", 14.18),
 ]
@@ -43,9 +42,9 @@ def bar(ax, y, length, thick, fc, r_pt=5, z=2):
     ax.add_patch(PathPatch(Path(verts, codes), facecolor=fc, edgecolor="none", zorder=z))
 
 
-# same 6.0 in width and font sizes as Figures 1-7; taller to fit nine bars
-fig = plt.figure(figsize=(6.0, 4.4))
-ax = fig.add_axes([0.445, 0.12, 0.50, 0.86])
+# same 6.0 in width and font sizes as Figures 1-7; taller to fit eight bars
+fig = plt.figure(figsize=(6.0, 4.0))
+ax = fig.add_axes([0.445, 0.132, 0.50, 0.84])
 ax.set_xlim(0, 60)
 ax.set_ylim(-0.6, len(rows) - 0.4)
 
